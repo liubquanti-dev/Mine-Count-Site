@@ -1,13 +1,15 @@
 {
+  "homepage": "https://mcount.fun",
   "name": "my-website",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
+    "predeploy": "npm run build",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy",
+    "deploy": "gh-pages -d build",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",

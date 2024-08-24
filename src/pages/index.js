@@ -19,8 +19,9 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            to="https://wiki.mcount.fun/how-to-join"
+            target="_self">
+            Грати на сервері
           </Link>
         </div>
       </div>
@@ -32,8 +33,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Сайт`}
+      description="Офіційний сайт Minecraft сервера Mine Count.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

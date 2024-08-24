@@ -2,21 +2,21 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 const config = {
   title: 'Mine Count',
-  tagline: 'Безкоштовний публічний майнкрафт сервер',
+  tagline: 'Безкоштовний публічний Minecraft сервер',
   favicon: 'img/favicon.png',
 
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://mcount.fun',
   baseUrl: '/',
 
-  organizationName: 'facebook',
-  projectName: 'docusaurus',
+  organizationName: 'White-Heart-Dev',
+  projectName: 'mine-count-site',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'uk',
+    locales: ['uk'],
   },
 
   presets: [
@@ -49,7 +49,7 @@ const config = {
 
   themeConfig:
     ({
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/logo-background.png',
       navbar: {
         title: 'Mine Count',
         logo: {
@@ -58,18 +58,19 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            to: 'https://wiki.mcount.fun/',
             position: 'left',
             label: 'Вікі',
-            href: 'https://wiki.mcount.fun/',
+            target: '_self',
           },
           {
-            to: '/blog',
+            to: 'https://wiki.mcount.fun/blog/',
+            target: '_self',
             label: 'Блог',
-            position: 'left'},
+            position: 'left'
+          },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            to: 'https://github.com/liubquanti-dev/Mine-Count-Site',
             label: 'GitHub',
             position: 'right',
           },
@@ -79,46 +80,42 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Інформація',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Вікі',
+                to: 'https://wiki.mcount.fun/',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Спільнота',
             items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                to: 'https://discord.gg/TYs8FjvzFf',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Steam',
+                to: 'https://steamcommunity.com/groups/dglade',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Більше',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Блог',
+                to: 'https://wiki.mcount.fun/blog/',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                to: 'https://github.com/liubquanti-dev/Mine-Count-Site',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} LIUBQUANTUM GROUP.`,
       },
       prism: {
         theme: prismThemes.github,

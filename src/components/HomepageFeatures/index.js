@@ -36,7 +36,6 @@ function Feature({imgSrc, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        {/* Використовуємо тег img замість Svg */}
         <img src={imgSrc} className={styles.featureImg} alt={title} />
       </div>
       <div className="text--center padding-horiz--md">

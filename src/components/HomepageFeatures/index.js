@@ -8,7 +8,7 @@ const FeatureList = [
     imgSrc: require('@site/static/img/winter.png').default,
     description: (
       <>
-        Кожного сезону на сервер додаються ексклюзивні ігрові механіки, які доповнюють ванільний геймплей.
+        Кожного сезону на сервер додаються <a href='https://wiki.mcount.fun/rs'>ексклюзивні ігрові механіки</a>, які доповнюють ванільний геймплей.
       </>
     ),
   },
@@ -17,7 +17,7 @@ const FeatureList = [
     imgSrc: require('@site/static/img/cat.png').default,
     description: (
       <>
-        На нашому сервері ви не обмежені у виборі пристрою для гри. Грайте хоч з холодильника чи <a href='https://youtu.be/iPLgrpuAwM8?si=VNj0qtWYAto6RHmr&t=375'>годинника</a>.
+        На нашому сервері ви не обмежені у виборі <a href='https://wiki.mcount.fun/get-minecraft'>пристрою для гри</a>. Грайте хоч з холодильника чи <a href='https://youtu.be/iPLgrpuAwM8?si=VNj0qtWYAto6RHmr&t=375'>годинника</a>.
       </>
     ),
   },
@@ -26,7 +26,7 @@ const FeatureList = [
     imgSrc: require('@site/static/img/library.png').default,
     description: (
       <>
-        Всі масштабні ігрові події, які відбуваються на сервері, фіксуються на офіційний вікі. А також у вас є можливість створити сторінку про себе. 
+        Всі масштабні ігрові події, які відбуваються на сервері, фіксуються на <a href='https://wiki.mcount.fun'>офіційний вікі</a>. А також у вас є можливість створити сторінку про себе. 
       </>
     ),
   },

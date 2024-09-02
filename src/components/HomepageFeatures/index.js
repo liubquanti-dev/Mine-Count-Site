@@ -17,7 +17,7 @@ const FeatureList = [
     imgSrc: require('@site/static/img/cat.png').default,
     description: (
       <>
-        На нашому сервері ви не обмежені у виборі пристрою для гри. Грайте хоч з холодильника чи годинника.
+        На нашому сервері ви не обмежені у виборі пристрою для гри. Грайте хоч з холодильника чи <a href='https://youtu.be/iPLgrpuAwM8?si=VNj0qtWYAto6RHmr&t=375'>годинника</a>.
       </>
     ),
   },

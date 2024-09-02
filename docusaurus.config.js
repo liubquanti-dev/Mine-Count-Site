@@ -70,10 +70,19 @@ const config = {
             position: 'left'
           },
           {
-            to: 'https://github.com/liubquanti-dev/Mine-Count-Site',
-            label: 'GitHub',
-            position: 'right',
-          },
+						href: 'https://github.com/liubquanti-dev/Mine-Count-Site',
+						className: 'navbar-item-github',
+						position: 'right',
+					},
+					{
+						href: 'https://discord.gg/TYs8FjvzFf',
+						className: 'navbar-item-discord',
+						position: 'right',
+					},
+					{
+						type: 'localeDropdown',
+						position: 'right',
+					}
         ],
       },
       footer: {

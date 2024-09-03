@@ -55,6 +55,7 @@ const config = {
         logo: {
           alt: 'Mine Count Logo',
           src: 'img/logo-small.png',
+          href: '/',
         },
         items: [
           {
@@ -67,6 +68,12 @@ const config = {
             to: 'https://wiki.mcount.fun/blog/',
             target: '_self',
             label: 'Блог',
+            position: 'left'
+          },
+          {
+            to: 'https://map.mcount.fun/',
+            target: '_self',
+            label: 'Мапа',
             position: 'left'
           },
           {

@@ -130,6 +130,20 @@ const config = {
               },
             ],
           },
+          {
+            title: 'Інші сервери',
+            items: [
+
+              {
+                label: 'Terraria',
+                to: 'https://jbrave.fun',
+              },
+              {
+                label: 'Rust',
+                to: 'https://fhawk.fun',
+              },
+            ],
+          },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} LIUBQUANTUM GROUP.`,
       },

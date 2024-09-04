@@ -50,6 +50,11 @@ const config = {
   themeConfig:
     ({
       image: 'img/logo-background.png',
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
+      },
       navbar: {
         title: 'Mine Count',
         logo: {

@@ -8,7 +8,7 @@ const FeatureList = [
     imgSrc: require('@site/static/img/winter.png').default,
     description: (
       <>
-        Кожного сезону на сервер додаються <a href='https://wiki.mcount.fun/rs'>ексклюзивні ігрові механіки</a>, які доповнюють ванільний геймплей.
+        Кожного сезону на сервер додаються <a href='https://wiki.mcount.fun/#--%D0%BE%D1%81%D0%BE%D0%B1%D0%BB%D0%B8%D0%B2%D0%B8%D0%B9-%D0%B3%D0%B5%D0%B9%D0%BC%D0%BF%D0%BB%D0%B5%D0%B9'>ексклюзивні ігрові механіки</a>, які доповнюють ванільний геймплей.
       </>
     ),
   },

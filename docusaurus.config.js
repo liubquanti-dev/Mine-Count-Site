@@ -146,11 +146,11 @@ const config = {
 
               {
                 label: 'Terraria',
-                to: 'https://jbrave.fun',
+                to: 'https://jbrave.liubquanti.click',
               },
               {
                 label: 'Rust',
-                to: 'https://fhawk.fun',
+                to: 'https://fhawk.liubquanti.click',
               },
             ],
           },

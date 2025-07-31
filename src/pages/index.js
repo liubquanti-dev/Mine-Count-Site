@@ -19,7 +19,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="https://wiki.mcount.fun/how-to-join"
+            to="https://mcountwiki.liubquanti.click/how-to-join"
             target="_self">
             Грати на сервері
           </Link>

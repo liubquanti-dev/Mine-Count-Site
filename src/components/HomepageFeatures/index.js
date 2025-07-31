@@ -8,7 +8,7 @@ const FeatureList = [
     imgSrc: require('@site/static/img/winter.png').default,
     description: (
       <>
-        Кожного сезону на сервер додаються <a href='https://wiki.mcount.fun/#--%D0%BE%D1%81%D0%BE%D0%B1%D0%BB%D0%B8%D0%B2%D0%B8%D0%B9-%D0%B3%D0%B5%D0%B9%D0%BC%D0%BF%D0%BB%D0%B5%D0%B9'>ексклюзивні ігрові механіки</a>, які доповнюють ванільний геймплей.
+        Кожного сезону на сервер додаються <a href='https://mcountwiki.liubquanti.click/#--%D0%BE%D1%81%D0%BE%D0%B1%D0%BB%D0%B8%D0%B2%D0%B8%D0%B9-%D0%B3%D0%B5%D0%B9%D0%BC%D0%BF%D0%BB%D0%B5%D0%B9'>ексклюзивні ігрові механіки</a>, які доповнюють ванільний геймплей.
       </>
     ),
   },
@@ -17,7 +17,7 @@ const FeatureList = [
     imgSrc: require('@site/static/img/cat.png').default,
     description: (
       <>
-        На нашому сервері ви не обмежені у виборі <a href='https://wiki.mcount.fun/get-minecraft'>пристрою для гри</a>. Грайте хоч з холодильника чи <a href='https://youtu.be/iPLgrpuAwM8?si=VNj0qtWYAto6RHmr&t=375'>годинника</a>.
+        На нашому сервері ви не обмежені у виборі <a href='https://mcountwiki.liubquanti.click/get-minecraft'>пристрою для гри</a>. Грайте хоч з холодильника чи <a href='https://youtu.be/iPLgrpuAwM8?si=VNj0qtWYAto6RHmr&t=375'>годинника</a>.
       </>
     ),
   },
@@ -26,7 +26,7 @@ const FeatureList = [
     imgSrc: require('@site/static/img/library.png').default,
     description: (
       <>
-        Всі масштабні ігрові події, які відбуваються на сервері, фіксуються на <a href='https://wiki.mcount.fun'>офіційний вікі</a>. А також у вас є можливість створити сторінку про себе. 
+        Всі масштабні ігрові події, які відбуваються на сервері, фіксуються на <a href='https://mcountwiki.liubquanti.click'>офіційний вікі</a>. А також у вас є можливість створити сторінку про себе. 
       </>
     ),
   },
